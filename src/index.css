@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contpadre {
+  width: 100%;
+  height: 100vh;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.contitulo {
+  width: 100%;
+  height: 100px;
+  /* background: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  width: 50%;
+  height: auto;
+  background: orange;
+}
+
+.toDoList {
+  width: 100%;
+  height: auto;
+  /* background: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cont-formulario2 {
+  width: 100%;
+  height: 150px;
+  /* background: gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-formulario2 input {
+  width: 250px;
+  height: 40px;
+  padding-left: 8px;
+}
+
+.cont-formulario2 button {
+  width: 150px;
+  height: 40px;
+  /* margin-left: 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contpadre2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+  flex-direction: column;
+}
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.items-text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.items-text input {
+  font-size: 18px;
+}
+.deleteIcon {
+  /* padding-left: 8px; */
+  font-size: 25px;
+}
+
+.cont-boton {
+  width: 100%;
+  height: 90px;
+  /* background: purple; */
+  /* padding-top: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
